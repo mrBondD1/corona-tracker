@@ -6,7 +6,7 @@
 }
 
 .card{
-    margin: 0 1% !important;
+    margin: 1% 2% !important;
     padding-right: 50px !important;
 }
 
@@ -19,3 +19,13 @@
 .deaths{
     border-bottom: 10px solid rgba(255,0, 0, 0.5);
 }
+
+
+@media screen and (max-width:770px) {
+    .container{
+        margin: 5% 10%;
+        padding: 5% 0;
+    }
+  
+}
+
